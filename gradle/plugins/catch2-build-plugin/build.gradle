@@ -1,0 +1,17 @@
+plugins {
+    id 'groovy'
+    id 'java-gradle-plugin'
+}
+
+dependencies {
+    implementation 'org.gradle.samples:build-wrapper:1.0'
+}
+
+gradlePlugin {
+    plugins {
+        config {
+            id = 'com.example.build.catch2'
+            implementationClass = 'com.example.Catch2ConfigurationPlugin'
+        }
+    }
+}

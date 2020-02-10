@@ -1,0 +1,3 @@
+rootProject.name = 'catch2-build'
+
+includeBuild('../build-wrapper-plugin')
